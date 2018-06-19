@@ -11,6 +11,7 @@ var
 begin
      acum := ' ';
      totalNum := length(num);
+
               if(totalNum > 3) then
               begin
                    for i:=0 to 2 do
@@ -18,6 +19,7 @@ begin
 
                        acum := acum + '.';
                        totalNum := totalNum - 3 ;
+                       puntos := acum;
               end;
 end;
 
